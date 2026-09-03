@@ -8,13 +8,13 @@ export const Hero = ({ onOpenDemoModal }) => {
   return (
     <section style={{ backgroundColor: '#ffffff', padding: '4rem 0 5rem 0', overflow: 'hidden' }}>
       <div className="landing-container">
-        
+
         {/* 2 Column Hero Grid */}
         <div className="hero-grid-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '2.5rem', alignItems: 'center' }}>
-          
+
           {/* Left Hero Content */}
           <div className="hero-left-col" style={{ gridColumn: 'span 7' }}>
-            
+
             {/* Subtitle pill badge */}
             <div style={{ marginBottom: '1.25rem' }}>
               <span className="landing-section-tag">
@@ -43,7 +43,7 @@ export const Hero = ({ onOpenDemoModal }) => {
               </button>
 
               <a
-                href={getWhatsAppLink("Hi Nesting! I want to talk on WhatsApp about Nesting for my hostel.")}
+                href={getWhatsAppLink("Hi Nesting! I'd like to know more about Nesting for my hostel.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="landing-btn-secondary"
@@ -58,7 +58,7 @@ export const Hero = ({ onOpenDemoModal }) => {
 
           {/* Right Hero UI Mockup Card (Owner Control Room) */}
           <div className="hero-right-col" style={{ gridColumn: 'span 5', position: 'relative' }}>
-            
+
             {/* Owner Control Room Card */}
             <div className="hero-control-card" style={{
               backgroundColor: '#ffffff',
@@ -67,7 +67,7 @@ export const Hero = ({ onOpenDemoModal }) => {
               padding: '2rem',
               boxShadow: '0 20px 35px -8px rgba(22, 91, 70, 0.08), 0 6px 12px -4px rgba(0,0,0,0.04)'
             }}>
-              
+
               {/* Header Label */}
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid #f1f5f9', paddingBottom: '1rem', marginBottom: '1.5rem' }}>
                 <span style={{ fontSize: '0.75rem', fontWeight: '700', letterSpacing: '0.1em', color: '#94a3b8', textTransform: 'uppercase' }}>
